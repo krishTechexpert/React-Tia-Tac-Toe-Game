@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.board-row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 8rem;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+#board-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.square-board {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.history-box {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.game-btn {
+  margin: 20px 0 10px;
+  border: 0;
+  background-color: rgb(14, 95, 6);
+  color: #fff;
+  padding: 15px;
+  border-radius: 4px;
+}
+.square.selected {
+  background-color: yellow;
+}
